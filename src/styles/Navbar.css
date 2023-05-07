@@ -1,0 +1,23 @@
+.navbar-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 7vh;
+    width: 85vw;
+    border-radius: 15px;
+    background-color:  rgba(8, 48, 51, 1.5);
+    margin-right: 15px; 
+    padding-top: 10px;
+}
+.nav-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.nav-text{
+    font-size: 10px;
+    color: #1DEDBD;
+}
+/* #083033; */

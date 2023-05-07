@@ -1,0 +1,19 @@
+.header-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5vw;
+ 
+}
+
+.header-pic{
+    height: 60px;
+    width: 60px;
+    margin-right: 4vw;
+}
+.header-text{
+    background-color:  rgba(8, 48, 51, 1.5);
+    color: #1DEDBD;
+    font-size: small;
+}
