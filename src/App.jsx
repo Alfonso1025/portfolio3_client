@@ -5,6 +5,7 @@ import Projects from "./Projects";
 import ChatBot from "./ChatBot";
 import Navbar from "./Navbar";
 import Header from "./Header";
+import Footer from "./Footer";
 import { Routes, Route} from 'react-router-dom'
 import './styles/App.css'
 
@@ -21,6 +22,7 @@ function App() {
          <Route path="/Projects" element={<Projects/>}/>
          <Route path="/Contact" element={<Contact/>}/>
       </Routes>
+      <Footer/>
     </div>
    
   ) 

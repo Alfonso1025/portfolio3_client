@@ -14,8 +14,8 @@ function ChatBot() {
       }
   const [inputMessage, setInputMessage] = useState('')
   const [userMessage, setUserMessage] = useState('')
-  const [botMessage, setBotMessage] = useState(`Hi I am Alfonso's AI assistant offering help with 
-  questions about his professional skills. `)
+  const [botMessage, setBotMessage] = useState(`Hi! I am Alfonso's AI assistant. I am here to
+   help you with questions about Alfonso's professional skills and experience. `)
   const [isBotResponding, setIsBotResponding] = useState(false)
   const [hasUserTexted, setHasUserTexted] = useState(false)
   
@@ -74,9 +74,9 @@ function ChatBot() {
       {
         !isBotResponding ?
         <form className="chatbot-form" >
-            <input type="text"
+            <textarea
                  className="chatbot-input"
-                  placeholder="...type your message"
+                  placeholder="Ask a question"
                   value={inputMessage}
                   onChange={e=>setInputMessage(e.target.value)}
                   />

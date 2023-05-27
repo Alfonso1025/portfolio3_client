@@ -1,0 +1,14 @@
+.about-wrapper{
+    margin-top: 20px;
+    height: auto;
+    width: 60vw;
+    background-color: rgba(8, 48, 51, 1.5);
+    padding: 10px;
+}
+.about-text{
+    color: #1DEDBD;
+    font-size: large;
+    line-height: 2;
+    text-align: justify;
+
+}

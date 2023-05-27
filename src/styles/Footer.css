@@ -1,0 +1,13 @@
+.footer-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vh;
+ 
+    background-color:  rgba(8, 48, 51, 1.5);
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+.footer-text{
+    color: #1DEDBD;
+}
