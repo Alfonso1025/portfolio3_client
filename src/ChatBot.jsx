@@ -22,6 +22,7 @@ function ChatBot() {
   const sendMessage = async(e)=>{
     e.preventDefault()
     try {
+      console.log('sending message')
       setUserMessage(inputMessage)
       setHasUserTexted(true)
       if(userMessage === '') return 
