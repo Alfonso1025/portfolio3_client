@@ -28,7 +28,7 @@ function ChatBot() {
       if(userMessage === '') return 
       setIsBotResponding(true)
       const body = {message : userMessage}
-      const response = await fetch('http://localhost:3001/chat', {
+      const response = await fetch('https://3.215.0.219:8082/chat', {
         method : 'POST',
         headers:{'content-type':'application/json'},
         body: JSON.stringify(body)
