@@ -23,24 +23,27 @@ function ChatBot() {
     e.preventDefault()
     try {
       console.log('sending message')
-      setUserMessage(inputMessage)
       setHasUserTexted(true)
-      if(userMessage === '') return 
-      setIsBotResponding(true)
-      const body = {message : userMessage}
-      const response = await fetch('https://3.215.0.219:8082/chat', {
+      setUserMessage(inputMessage)
+      if(inputMessage !== ''){
+        
+        console.log('the message is: ', inputMessage)
+        setIsBotResponding(true)
+        const body = {message : inputMessage}
+        const response = await fetch('https://3.215.0.219:8082/chat', {
         method : 'POST',
         headers:{'content-type':'application/json'},
         body: JSON.stringify(body)
-      })
-      const parseResponse = await response.json()
-      console.log('this is the response',parseResponse)
-      if(parseResponse.code === 200){
-       setBotMessage(parseResponse.data)   
+        })
+        const parseResponse = await response.json()
+        console.log('this is the response',parseResponse)
+        if(parseResponse.code === 200){
+          setBotMessage(parseResponse.data)   
         
-      }
-      setInputMessage('')
-      setIsBotResponding(false)
+         }
+         setInputMessage('')
+         setIsBotResponding(false)
+        }
     } catch (error) {
       console.log('this is the error', error.message)
     }
