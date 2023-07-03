@@ -18,7 +18,7 @@ function Navbar(){
                 <Link to="/about">
                    <AiOutlineUser style={{fontSize: '20px',color:'#1DEDBD'}}/>
                 </Link>
-                <p className="nav-text">Abour</p>
+                <p className="nav-text">About</p>
             </div>
             <div className="nav-item">
                 <Link to="/projects">

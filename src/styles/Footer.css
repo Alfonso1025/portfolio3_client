@@ -11,3 +11,19 @@
 .footer-text{
     color: #1DEDBD;
 }
+
+
+@media screen and (max-width: 390px) {
+    .footer-wrapper{
+        
+        height: 6vh;
+        width: 90vw;
+        background-color:  rgba(8, 48, 51, 1.5);
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        padding: 5px;
+    }
+    .footer-text{
+        font-size: small;
+    }
+}

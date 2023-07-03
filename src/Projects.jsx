@@ -17,8 +17,8 @@ const projectsArray = [
         description : ` The first iteration of a library for linear algebra that simplifies complex
          calculations involving vectors and matrices. `,
         stackArray : ['C++'],
-        github : "https://github.com/Alfonso1025/wikerpark-app-client.git",
-        liveProject : "https://github.com/Alfonso1025/wikerpark-app-client.git"
+        github : "https://github.com/Alfonso1025/Lineal_Algebra",
+        liveProject : "https://github.com/Alfonso1025/Lineal_Algebra"
     },
     {   
         name : 'Graphs',
@@ -26,8 +26,8 @@ const projectsArray = [
         description : ` Currently the 3rd iteration of a library that focuses on solving various graph 
         problems. Continuously refining it to optimize performance. `,
         stackArray : ['C++'],
-        github : "https://github.com/Alfonso1025/wikerpark-app-client.git",
-        liveProject : "https://github.com/Alfonso1025/wikerpark-app-client.git"
+        github : "https://https://github.com/Alfonso1025/Graphs",
+        liveProject : "https://https://github.com/Alfonso1025/Graphs",
     },
 
     {   
@@ -38,7 +38,7 @@ const projectsArray = [
         This allows parents to go on dates without worrying about childcare costs`,
         stackArray : ['React.js', 'Node.js','MongoDb', 'MidJourney', 'Canva', 'S3', 'EC2'],
         github : "https://github.com/Alfonso1025/wikerpark-app-client.git",
-        liveProject : "https://github.com/Alfonso1025/wikerpark-app-client.git"
+        liveProject : "https://github.com/Alfonso1025/wikerpark_babysiting_server"
     },
     {
         name :'Event Manager',
@@ -47,7 +47,7 @@ const projectsArray = [
         Sign up now for stress-free wedding planning.`,
         stackArray : ['React.js', 'Node.js','PostgresSql', 'MidJourney', 'Canva', 'S3', 'EC2'],
         github : 'https://github.com/Alfonso1025/eventManager_client.git',
-        liveProject : 'https://github.com/Alfonso1025/eventManager_client.git'
+        liveProject : 'https://github.com/Alfonso1025/eventManagerServer2'
     },
     {
         name :'Instagram Clone',
@@ -58,8 +58,8 @@ const projectsArray = [
         and interact with friends through likes and comments. Join the community and start 
         sharing your creativity today!`,
         stackArray : ['React Native', 'Typescrypt','Node.js','MongoDB', 'Expo Go', 'S3'],
-        github : 'https://github.com/Alfonso1025/instagram_clone_client.git',
-        liveProject : 'https://github.com/Alfonso1025/instagram_clone_client.git'
+        github : 'https://github.com/Alfonso1025/instagram_clone_client',
+        liveProject : 'https://insta-app.alfonso-softtech.com'
     },
     {
         name :'WikiTwitts',
@@ -72,8 +72,8 @@ const projectsArray = [
         on an aesthetically pleasing card. Store these cards in your profile and stay 
         up-to-date on the latest from your favorite public figures. Try wikiTwitts`,
         stackArray : ['React Native', 'Typescrypt','Node.js','MongoDB', 'Expo Go', 'S3'],
-        github : 'https://github.com/Alfonso1025/instagram_clone_client.git',
-        liveProject : 'https://github.com/Alfonso1025/instagram_clone_client.git'
+        github : 'https://github.com/Alfonso1025/WikiProfiles_server',
+        liveProject : 'https://github.com/Alfonso1025/WikiProfiles_server'
     },
 
 
