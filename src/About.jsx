@@ -1,10 +1,10 @@
 import React from "react"
 import './styles/About.css'
-const aboutText = `Hi there! I'm Alfonso, a software developer from Chicago. I specialize in 
-both front-end and back-end development, possessing a diverse skill set that includes database
+const aboutText = `Hi there! I'm Alfonso, a software developer. I have experience in both 
+ front-end and back-end development, possessing a diverse skill set that goes from UI, UX to database
  management, version control, and deployment techniques.
 
-In front-end development, I have a strong command of vanilla JavaScript, and the 
+In front-end development, I have a strong knowledge of vanilla JavaScript, and the 
 ability to build client side applications with React.js. On the back-end, my focus lies in Node.js with Express.js, 
 enabling me to create robust server-side solutions.
 
@@ -15,18 +15,17 @@ Moreover, I have a foundational understanding of C and C++, and I have gained va
 experience through my involvement in projects such as optimizing graph algorithms and 
 solving linear algebra problems by developing specialized libraries. 
 
-For version control, I am proficient in Git and GitHub, ensuring efficient code management 
-and collaboration. Additionally, I possess hands-on experience deploying applications on AWS 
+For version control, I am proficient in Git and GitHub. Additionally, I possess hands-on experience deploying applications on AWS 
 and resolving any encountered issues.
 
-Recently, I have integrated prompt engineering into my workflow to enhance efficiency 
-and speed at every stage of the development process, including the design of user interfaces. 
+Recently, I have integrated the use of Large Language Models and other forms of generative Artificial
+intelligence into my workflow to enhance efficiency and speed at every stage of the development process, including the design of user interfaces. 
 
 I am committed to writing clean code, adhering to best practices, and ensuring efficiency, scalability, and security 
 through thorough testing and documentation.
 
-Thank you for taking the time to reading this summary of my technical capabilities. I eagerly anticipate the 
-opportunity to collaborate with you and contribute to your team's success!
+Finally, let me thank you for taking some time out of you bussy day to to read this summary 
+of my technical capabilities. 
 `
 function About(){
 

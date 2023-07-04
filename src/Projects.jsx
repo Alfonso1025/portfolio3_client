@@ -14,8 +14,8 @@ const projectsArray = [
     {   
         name : 'Lineal Algebra',
         logo : linalgLogo,
-        description : ` The first iteration of a library for linear algebra that simplifies complex
-         calculations involving vectors and matrices. `,
+        description : ` The first iteration of a library for linear algebra that simplifies calculations
+         calculations involving vectors and matrices.  `,
         stackArray : ['C++'],
         github : "https://github.com/Alfonso1025/Lineal_Algebra",
         liveProject : "https://github.com/Alfonso1025/Lineal_Algebra"
@@ -43,7 +43,7 @@ const projectsArray = [
     {
         name :'Event Manager',
         logo : emLogo,
-        description : `The perfect web app to plan your wedding. Create a guest list and let your guests RSVP easily. 
+        description : `A web app to plan your wedding. Create a guest list and let your guests RSVP easily. 
         Sign up now for stress-free wedding planning.`,
         stackArray : ['React.js', 'Node.js','PostgresSql', 'MidJourney', 'Canva', 'S3', 'EC2'],
         github : 'https://github.com/Alfonso1025/eventManager_client.git',
@@ -52,11 +52,10 @@ const projectsArray = [
     {
         name :'Instagram Clone',
         logo : instLogo,
-        description : `a personal project developed to showcase my skills and passion 
+        description : `A personal project developed to showcase my skills and passion 
         for photo-sharing applications. Based on the functionalities and user experience 
-        of Instagram, this app allows you to sign up, log in, post single or multiple images, 
-        and interact with friends through likes and comments. Join the community and start 
-        sharing your creativity today!`,
+        of Instagram, this app allows you to sign up, log in, upload a single or multiple images with
+        each post, and interact with friends through likes and comments.`,
         stackArray : ['React Native', 'Typescrypt','Node.js','MongoDB', 'Expo Go', 'S3'],
         github : 'https://github.com/Alfonso1025/instagram_clone_client',
         liveProject : 'https://insta-app.alfonso-softtech.com'
@@ -89,7 +88,7 @@ const projectsArray = [
                         projectLogo={proj.logo} 
                         projectName={proj.name} 
                         description = {proj.description}
-                        githubLink={proj.github}
+                        github={proj.github}
                         liveProject={proj.liveProject}/>
                     )
                    

@@ -40,7 +40,7 @@ return(
             <h4>Web app</h4>
             <p className="project-body">{description}</p>
             <div className="project-buttons">
-                <a className="prject-link" href={github}>
+                <a className="project-link" href={github}>
                     <AiFillGithub style={{fontSize: '30px', color:'#0B161A'}}/>
                 </a>
                 <a className="project-link" href={liveProject}>
