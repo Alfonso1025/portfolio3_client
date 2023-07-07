@@ -6,7 +6,7 @@ import instLogo from './media/instagram1.png'
 import graphLogo from './media/graph.png'
 import linalgLogo from './media/algebra.png'
 import ProjectCard from "./ProjectsCard"
-import saavedra from './media/saavedra.png'
+import saavedra from './media/saavedra2.png'
 
 function Projects(){
 
