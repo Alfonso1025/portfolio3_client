@@ -6,6 +6,7 @@ import instLogo from './media/instagram1.png'
 import graphLogo from './media/graph.png'
 import linalgLogo from './media/algebra.png'
 import ProjectCard from "./ProjectsCard"
+import saavedra from './media/saavedra.png'
 
 function Projects(){
 
@@ -58,7 +59,7 @@ const projectsArray = [
         each post, and interact with friends through likes and comments.`,
         stackArray : ['React Native', 'Typescrypt','Node.js','MongoDB', 'Expo Go', 'S3'],
         github : 'https://github.com/Alfonso1025/instagram_clone_client',
-        liveProject : 'https://insta-app.alfonso-softtech.com'
+        liveProject : 'https://insta-app.alfonso-softtech.com/documentation'
     },
     {
         name :'WikiTwitts',
@@ -74,7 +75,18 @@ const projectsArray = [
         github : 'https://github.com/Alfonso1025/WikiProfiles_server',
         liveProject : 'https://github.com/Alfonso1025/WikiProfiles_server'
     },
-
+    {
+        name :'Saavedra Law',
+        logo : saavedra,
+        description : `Saavedra Law is a leading firm specializing in civil litigation in 
+        Mexico City. It was a privilege to be entrusted with the task of developing and 
+        creating their official website, which served as a powerful platform to showcase 
+        their expertise and services.`,
+        stackArray : ['React.js', 'Midjourney', 'Canva', 'Css'],
+        github : 'https://github.com/Alfonso1025/Ramirez-Saavedra',
+        liveProject : 'https://ramirez-saavedra.vercel.app/'
+    },
+    
 
 ]
 
