@@ -44,7 +44,7 @@
     max-height: 15vh;
     width: 60vw;
     text-align: justify;
-    line-height: 2;
+    
 }
 .chatbot-form{
     display: flex;
