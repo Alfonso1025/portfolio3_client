@@ -1,23 +1,45 @@
 
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import './styles/Contact.css'
 import emailjs from '@emailjs/browser';
+import SentEmail from './SentEmail';
 function Contact(){
+    //state variables
+    const [status, setStatus] = useState('')
+    const [message, setMessage] = useState('')
     
     const form = useRef()
 
     function sendEmail(e){
         e.preventDefault();
-
+        
+        const inputs = form.current.querySelectorAll('input[type="text"], input[type="email"]');
+        for (const input of inputs) {
+            if (!input.value.trim()) {
+                setStatus('ERROR')
+                setMessage('Missing a required field!')
+                setTimeout(()=>{
+                    setStatus('')
+                }, 2000)
+                return; 
+    }
+  }
         emailjs.sendForm('service_wd04e3j', "id_contact_form", form.current, '7NspTMH9mI7skH4vJ')
           .then((result) => {
+             setStatus('SUCCESS')
+             setTimeout(()=>{
+                e.target.reset() 
+                setStatus('')
+            }, 3000)
+
               console.log(result.text);
           }, (error) => {
               console.log(error.text);
           });
-          e.target.reset()
+         
+
     }
-    
+    if (status === 'SUCCESS') return <SentEmail/>
     return(
         <div className="contact-wrapper">
              <form  ref= {form} onSubmit={sendEmail} className="form">
@@ -36,6 +58,12 @@ function Contact(){
                     
                     
             </form>
+            {
+                status === 'ERROR' &&
+                <div className='error-container'>
+                    <p className='error-text'>{message}</p>
+                </div>
+            }
                   
         </div>
     )

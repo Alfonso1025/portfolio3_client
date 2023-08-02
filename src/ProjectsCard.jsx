@@ -37,8 +37,11 @@ return(
                 <h2 className="project-name">{projectName}</h2>
                 <img src={projectLogo} alt="logo" className="project-image" />
             </div>
-            <h4>Web app</h4>
-            <p className="project-body">{description}</p>
+        
+            <div className="project-body">
+            <p >{description}</p>
+            </div>
+           
             <div className="project-buttons">
                 <a className="project-link" href={github}>
                     <AiFillGithub style={{fontSize: '30px', color:'#0B161A'}}/>

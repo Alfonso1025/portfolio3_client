@@ -55,11 +55,14 @@
 }
 
  .project-body{
-    margin-top: 2.5em;
-    font-size: 15px;
+    
+    font-size: 21px;
     text-align: justify;
-    line-height: 20px;
-    color: #0B161A
+    line-height: 30px;
+    color: #124035;
+   font-weight:500;
+    padding: 10px;
+    
     
 }
 

@@ -1,6 +1,7 @@
 import React from "react"
 import profilePic from './media/profile_portfolio-removebg-preview.png'
 import './styles/Header.css'
+
 function Header(){
 
     return(

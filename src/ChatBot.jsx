@@ -4,6 +4,8 @@ import './styles/Chatbot.css'
 import {AiOutlineSend} from "react-icons/ai"
 import {BsThreeDots,BsRobot} from "react-icons/bs"
 import {RxFace} from "react-icons/rx"
+import Loader from "./Loader"
+
 
 function ChatBot() {
 
@@ -23,10 +25,10 @@ function ChatBot() {
     e.preventDefault()
     try {
       console.log('sending message')
-      setHasUserTexted(true)
+      
       setUserMessage(inputMessage)
       if(inputMessage !== ''){
-        
+        setHasUserTexted(true)
         console.log('the message is: ', inputMessage)
         setIsBotResponding(true)
         const body = {message : inputMessage}
@@ -52,10 +54,14 @@ function ChatBot() {
   }
   return (
     <div className="chatbot-wrapper">
-
-    <div>
-        <img src={bot} alt="" className="chatbot-image" />
-    </div>
+    {
+      !isBotResponding &&
+       <div>
+          <img src={bot} alt="" className="chatbot-image" />
+  
+        </div>
+    }
+    
       
       
       <div className="message-wrapper">
@@ -67,11 +73,14 @@ function ChatBot() {
           </div>
         }
             
-            
+        { !isBotResponding &&
             <div  className='message'>
                 <BsRobot style={{fontSize: '20px',color:'#1DEDBD'}}/>
                 <p className='message-text'>{botMessage}</p>
             </div>
+
+        } 
+            
         
       </div>
 
@@ -89,7 +98,7 @@ function ChatBot() {
             </button>
         </form>
         :
-        <BsThreeDots style={{fontSize: '20px',color:'#1DEDBD'}}/>
+        <Loader/>
       }
      
     </div>

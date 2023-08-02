@@ -16,7 +16,7 @@ const projectsArray = [
         name : 'Lineal Algebra',
         logo : linalgLogo,
         description : ` The first iteration of a library for linear algebra that simplifies calculations
-         calculations involving vectors and matrices.  `,
+          involving vectors and matrices.  `,
         stackArray : ['C++'],
         github : "https://github.com/Alfonso1025/Lineal_Algebra",
         liveProject : "https://github.com/Alfonso1025/Lineal_Algebra"
@@ -64,10 +64,10 @@ const projectsArray = [
     {
         name :'WikiTwitts',
         logo : wtLogo,
-        description : `a personal web app project that streamlines 
+        description : `A personal web app project that streamlines 
         information about your favorite public figures. Search for a public 
-        figure with a Wikipedia page and Twitter account and retrieve their bio and 
-        latest tweet through the Wikipedia qand Twitter APIs. Additionally, the public figure's 
+        figure with a Wikipedia page and Twitter account. The app retrieves their bio and 
+        latest tweet through the Wikipedia and Twitter APIs. Additionally, the public figure's 
         picture is retrieved via web scraping from the Wikipedia page and displayed 
         on an aesthetically pleasing card. Store these cards in your profile and stay 
         up-to-date on the latest from your favorite public figures. Try wikiTwitts`,
