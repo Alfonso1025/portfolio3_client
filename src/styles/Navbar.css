@@ -3,11 +3,12 @@
     flex-direction: row;
     justify-content: space-around;
     height:9vh;
-    width: 95vw;
+    width: 100vw;
     border-radius: 15px;
     background-color:  rgba(8, 48, 51, 1.5);
     margin-right: 15px; 
     padding-top: 20px;
+    
 }
 .nav-item{
     display: flex;
