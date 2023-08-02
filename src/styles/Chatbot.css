@@ -87,16 +87,9 @@
     .message-text{
 
         font-size: small;
-        line-height: 1;
+        
     }
-    .chatbot-input{
-        height: 3vh;
-        width: 60vw;
-        border-radius: 30vw;
-        font-size: small;
-        padding: 15px;
-        background-color: white;
-    }
+    
     .chatbot-input{
         height: 2vh;
         width: 100vw;

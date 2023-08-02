@@ -15,8 +15,10 @@
 
 @media screen and (max-width: 390px) {
     .footer-wrapper{
-        
-        height: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 7vh;
         width: 90vw;
         background-color:  rgba(8, 48, 51, 1.5);
         margin-top: 10vh;
