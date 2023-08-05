@@ -76,12 +76,23 @@
 
  }
 
- .project-link{
+ .project-link {
     text-decoration: none;
     cursor: pointer;
-    
-   
- }
+    display: inline-block; /* Ensures the link can be transformed without affecting other elements */
+  
+    /* Apply initial styles */
+    transform: scale(1);
+    color: #680202;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Style for the link when hovered */
+  .project-link:hover {
+    transform: scale(1.1); /* Increase the scale to 110% when hovered */
+    color: #820303; /* Change the color when hovered */
+  }
+  
  .project-link-live{
     height: 30px;
     width: 30px;

@@ -42,13 +42,13 @@ const projectsArray = [
         liveProject : "https://github.com/Alfonso1025/wikerpark_babysiting_server"
     },
     {
-        name :'Event Manager',
+        name :'JoyHub',
         logo : emLogo,
         description : `A web app to plan your wedding. Create a guest list and let your guests RSVP easily. 
         Sign up now for stress-free wedding planning.`,
         stackArray : ['React.js', 'Node.js','PostgresSql', 'MidJourney', 'Canva', 'S3', 'EC2'],
         github : 'https://github.com/Alfonso1025/eventManager_client.git',
-        liveProject : 'https://github.com/Alfonso1025/eventManagerServer2'
+        liveProject : 'https://event-manager-client.vercel.app/'
     },
     {
         name :'Instagram Clone',
