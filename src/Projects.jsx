@@ -39,7 +39,7 @@ const projectsArray = [
         This allows parents to go on dates without worrying about childcare costs`,
         stackArray : ['React.js', 'Node.js','MongoDb', 'MidJourney', 'Canva', 'S3', 'EC2'],
         github : "https://github.com/Alfonso1025/wikerpark-app-client.git",
-        liveProject : "https://github.com/Alfonso1025/wikerpark_babysiting_server"
+        liveProject : "https://wikerpark-app-client.vercel.app/"
     },
     {
         name :'JoyHub',
