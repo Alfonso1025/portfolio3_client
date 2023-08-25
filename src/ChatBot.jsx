@@ -15,9 +15,10 @@ function ChatBot() {
         timestamp: Date.now()
       }
   const [inputMessage, setInputMessage] = useState('')
-  const [userMessage, setUserMessage] = useState('')
-  const [botMessage, setBotMessage] = useState(`Hi! I am Alfonso's AI assistant. I am here to
-   help you with questions about Alfonso's professional skills and experience. `)
+  const [userMessage, setUserMessage] = useState('') 
+  const [initMessage, setInitMessage] = useState(`Hi! I am Alfonso's AI assistant. I am here to
+  help you with questions about Alfonso's professional skills and experience. `)
+  const [botMessage, setBotMessage] = useState('')
   const [isBotResponding, setIsBotResponding] = useState(false)
   const [hasUserTexted, setHasUserTexted] = useState(false)
   
@@ -67,18 +68,25 @@ function ChatBot() {
       <div className="message-wrapper">
         {
            hasUserTexted &&
-          <div  className='message'>
+          <div  className='user-message'>
              <RxFace style={{fontSize: '20px',color:'#1DEDBD'}}/>
             <p className='message-text'>{userMessage}</p>
           </div>
         }
+        {
+          !isBotResponding && !hasUserTexted &&
+          <div  className='init-message'>
+            <BsRobot style={{fontSize: '20px',color:'#1DEDBD'}}/>
+            <p className='message-text'>{initMessage}</p>
+          </div>
+        }
             
-        { !isBotResponding &&
-            <div  className='message'>
+        { !isBotResponding && hasUserTexted &&
+            
+            <div  className='bot-message'>
                 <BsRobot style={{fontSize: '20px',color:'#1DEDBD'}}/>
                 <p className='message-text'>{botMessage}</p>
             </div>
-
         } 
             
         

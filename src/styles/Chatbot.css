@@ -6,6 +6,7 @@
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
+    
    
 }
 .chatbot-image{
@@ -27,7 +28,7 @@
   
     
 }
-.message{
+.init-message{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -36,9 +37,38 @@
     margin-bottom: 10px; 
     height: auto;
     width: 75vw;
-    background-color: rgba(8, 48, 51, 1.5);
+    background-color: rgba(8, 48, 51, 1.5); 
     border-radius: 40px;
     margin-top: 25px;
+
+}
+.user-message{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    height: auto;
+    width: 75vw;
+    background-color: rgba(8, 48, 51, 1.5); 
+    border-radius: 40px;
+    margin-top: 25px;
+
+}
+.bot-message{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    height: auto;
+    width: 75vw;
+    background-color: rgba(8, 48, 51, 1.5); 
+    border-radius: 40px;
+    margin-top: 25px;
+
 }
 .message-text{
     color:#1DEDBD ;
@@ -55,8 +85,7 @@
   bottom: 0;
   height: 15vh;
   width: 80vw;
-  
-  
+ 
  
   
 }
@@ -85,13 +114,29 @@
   }
 
 @media screen and (max-width: 500px) {
-    
+    .message-wrapper{
+        height: 40vh;
+        
+    }
+   
+    .bot-message{
+        display: flex;
+        flex: 1;
+    }
     .message-text{
         line-height: normal;
         font-size: small;
         
     }
-    
+    .chatbot-form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        width: 80vw;
+       
+
+    }
     .chatbot-input{
         height: 2vh;
         width: 100vw;
