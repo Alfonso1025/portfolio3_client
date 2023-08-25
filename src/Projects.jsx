@@ -12,24 +12,7 @@ function Projects(){
 
 const projectsArray = [
 
-    {   
-        name : 'Lineal Algebra',
-        logo : linalgLogo,
-        description : ` The first iteration of a library for linear algebra that simplifies calculations
-          involving vectors and matrices.  `,
-        stackArray : ['C++'],
-        github : "https://github.com/Alfonso1025/Lineal_Algebra",
-        liveProject : "https://github.com/Alfonso1025/Lineal_Algebra"
-    },
-    {   
-        name : 'Graphs',
-        logo :graphLogo, 
-        description : ` Currently the 3rd iteration of a library that focuses on solving various graph 
-        problems. Continuously refining it to optimize performance. `,
-        stackArray : ['C++'],
-        github : "https://https://github.com/Alfonso1025/Graphs",
-        liveProject : "https://https://github.com/Alfonso1025/Graphs",
-    },
+    
 
     {   
         name : 'Wiker Park Coop',
@@ -62,6 +45,17 @@ const projectsArray = [
         liveProject : 'https://insta-app.alfonso-softtech.com/documentation'
     },
     {
+        name :'Saavedra Law',
+        logo : saavedra,
+        description : `Saavedra Law is a leading firm specializing in civil litigation in 
+        Mexico City. It was a privilege to be entrusted with the task of developing and 
+        creating their official website, which served as a powerful platform to showcase 
+        their expertise and services.`,
+        stackArray : ['React.js', 'Midjourney', 'Canva', 'Css'],
+        github : 'https://github.com/Alfonso1025/Ramirez-Saavedra',
+        liveProject : 'https://ramirez-saavedra.vercel.app/'
+    },
+    {
         name :'WikiTwitts',
         logo : wtLogo,
         description : `A personal web app project that streamlines 
@@ -75,18 +69,25 @@ const projectsArray = [
         github : 'https://github.com/Alfonso1025/WikiProfiles_server',
         liveProject : 'https://github.com/Alfonso1025/WikiProfiles_server'
     },
-    {
-        name :'Saavedra Law',
-        logo : saavedra,
-        description : `Saavedra Law is a leading firm specializing in civil litigation in 
-        Mexico City. It was a privilege to be entrusted with the task of developing and 
-        creating their official website, which served as a powerful platform to showcase 
-        their expertise and services.`,
-        stackArray : ['React.js', 'Midjourney', 'Canva', 'Css'],
-        github : 'https://github.com/Alfonso1025/Ramirez-Saavedra',
-        liveProject : 'https://ramirez-saavedra.vercel.app/'
+   
+    {   
+        name : 'Lineal Algebra',
+        logo : linalgLogo,
+        description : ` The first iteration of a library for linear algebra that aims to takle and simplify 
+        calculations involving vectors and matrices.  `,
+        stackArray : ['C++'],
+        github : "https://github.com/Alfonso1025/Lineal_Algebra",
+        liveProject : "https://github.com/Alfonso1025/Lineal_Algebra"
     },
-    
+    {   
+        name : 'Graphs',
+        logo :graphLogo, 
+        description : ` Currently the 3rd iteration of a library that focuses on solving various graph 
+        problems. Continuously refining it to optimize performance. `,
+        stackArray : ['C++'],
+        github : "https://github.com/Alfonso1025/Graphs/tree/master",
+        liveProject : "https://github.com/Alfonso1025/Graphs/tree/master",
+    },
 
 ]
 

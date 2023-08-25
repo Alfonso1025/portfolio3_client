@@ -84,7 +84,7 @@
     transform: scale(1.1); 
   }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 500px) {
     
     .message-text{
         line-height: normal;
