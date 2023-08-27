@@ -12,18 +12,6 @@ function Projects(){
 
 const projectsArray = [
 
-    
-
-    {   
-        name : 'Wiker Park Coop',
-        logo : wpLogo,
-        description : `Wikerpark is a Chicago-based app that allows parents to babysit for each 
-        other for free, helping them save money on babysitters. The app has a points system and a background check to ensure safety and fairness. 
-        This allows parents to go on dates without worrying about childcare costs`,
-        stackArray : ['React.js', 'Node.js','MongoDb', 'MidJourney', 'Canva', 'S3', 'EC2'],
-        github : "https://github.com/Alfonso1025/wikerpark-app-client.git",
-        liveProject : "https://wikerpark-app-client.vercel.app/"
-    },
     {
         name :'JoyHub',
         logo : emLogo,
@@ -32,17 +20,6 @@ const projectsArray = [
         stackArray : ['React.js', 'Node.js','PostgresSql', 'MidJourney', 'Canva', 'S3', 'EC2'],
         github : 'https://github.com/Alfonso1025/eventManager_client.git',
         liveProject : 'https://event-manager-client.vercel.app/'
-    },
-    {
-        name :'Instagram Clone',
-        logo : instLogo,
-        description : `A personal project developed to showcase my skills and passion 
-        for photo-sharing applications. Based on the functionalities and user experience 
-        of Instagram, this app allows you to sign up, log in, upload a single or multiple images with
-        each post, and interact with friends through likes and comments.`,
-        stackArray : ['React Native', 'Typescrypt','Node.js','MongoDB', 'Expo Go', 'S3'],
-        github : 'https://github.com/Alfonso1025/instagram_clone_client',
-        liveProject : 'https://insta-app.alfonso-softtech.com/documentation'
     },
     {
         name :'Saavedra Law',
@@ -55,6 +32,43 @@ const projectsArray = [
         github : 'https://github.com/Alfonso1025/Ramirez-Saavedra',
         liveProject : 'https://ramirez-saavedra.vercel.app/'
     },
+    {
+        name :'Instagram Clone',
+        logo : instLogo,
+        description : `A personal project developed to showcase my skills and passion 
+        for photo-sharing applications. Based on the functionalities and user experience 
+        of Instagram, this app allows you to sign up, log in, upload a single or multiple images with
+        each post, and interact with friends through likes and comments. Click the app icon 
+        to see the API documentation, or go click the github icon for the client side code.`,
+        stackArray : ['React Native', 'Typescrypt','Node.js','MongoDB', 'Expo Go', 'S3'],
+        github : 'https://github.com/Alfonso1025/instagram_clone_client',
+        liveProject : 'https://insta-app.alfonso-softtech.com/documentation'
+    },
+
+    {   
+        name : 'Wiker Park Coop',
+        logo : wpLogo,
+        description : `Wikerpark is a Chicago-based app that allows parents to babysit for each 
+        other for free, helping them save money on babysitters. The app has a points system and a background check to ensure safety and fairness. 
+        This allows parents to go on dates without worrying about childcare costs`,
+        stackArray : ['React.js', 'Node.js','MongoDb', 'MidJourney', 'Canva', 'S3', 'EC2'],
+        github : "https://github.com/Alfonso1025/wikerpark-app-client.git",
+        liveProject : "https://wikerpark-app-client.vercel.app/"
+    },
+   
+  
+    
+    
+    {   
+        name : 'Graphs',
+        logo :graphLogo, 
+        description : ` Currently the 3rd iteration of a library that focuses on solving various graph 
+        problems. Continuously refining it to optimize performance. `,
+        stackArray : ['C++'],
+        github : "https://github.com/Alfonso1025/Graphs/tree/master",
+        liveProject : "https://github.com/Alfonso1025/Graphs/tree/master",
+    },
+  
     {
         name :'WikiTwitts',
         logo : wtLogo,
@@ -78,15 +92,6 @@ const projectsArray = [
         stackArray : ['C++'],
         github : "https://github.com/Alfonso1025/Lineal_Algebra",
         liveProject : "https://github.com/Alfonso1025/Lineal_Algebra"
-    },
-    {   
-        name : 'Graphs',
-        logo :graphLogo, 
-        description : ` Currently the 3rd iteration of a library that focuses on solving various graph 
-        problems. Continuously refining it to optimize performance. `,
-        stackArray : ['C++'],
-        github : "https://github.com/Alfonso1025/Graphs/tree/master",
-        liveProject : "https://github.com/Alfonso1025/Graphs/tree/master",
     },
 
 ]
