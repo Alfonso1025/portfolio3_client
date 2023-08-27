@@ -78,10 +78,11 @@ const projectsArray = [
         latest tweet through the Wikipedia and Twitter APIs. Additionally, the public figure's 
         picture is retrieved via web scraping from the Wikipedia page and displayed 
         on an aesthetically pleasing card. Store these cards in your profile and stay 
-        up-to-date on the latest from your favorite public figures. Try wikiTwitts`,
+        up-to-date on the latest from your favorite public figures. Try the icons below to 
+        check the client and server side code for this app.`,
         stackArray : ['React Native', 'Typescrypt','Node.js','MongoDB', 'Expo Go', 'S3'],
         github : 'https://github.com/Alfonso1025/WikiProfiles_server',
-        liveProject : 'https://github.com/Alfonso1025/WikiProfiles_server'
+        liveProject : 'https://github.com/Alfonso1025/wikiTwitts_client'
     },
    
     {   
