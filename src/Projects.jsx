@@ -94,6 +94,18 @@ const projectsArray = [
         github : "https://github.com/Alfonso1025/Lineal_Algebra",
         liveProject : "https://github.com/Alfonso1025/Lineal_Algebra"
     },
+    {   
+        name : 'Artificial Inteligence CSV file Analyst',
+        logo : linalgLogo,
+        description : `An AI-driven app that's user-friendly for professionals like lawyers and
+         marketers. With this tool, you can easily upload your CSV data and simply ask it
+         questions in natural language to get insights, making data analysis straightforward
+         and accessible to everyone with minimal technical skills. `,
+        stackArray : ['python, flask'],
+        github : "https://github.com/Alfonso1025/AI_Dataset_Analyst",
+        liveProject : "http://alfonso25.pythonanywhere.com/"
+    },
+
 
 ]
 
