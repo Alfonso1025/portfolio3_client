@@ -33,7 +33,7 @@ function ChatBot() {
         console.log('the message is: ', inputMessage)
         setIsBotResponding(true)
         const body = {message : inputMessage}
-        const response = await fetch('https://alfonso-softtech.com/chat', {
+        const response = await fetch('https://portfolio-server-f6pp.onrender.com/chat', {
         method : 'POST',
         headers:{'content-type':'application/json'},
         body: JSON.stringify(body)
