@@ -14,6 +14,8 @@ function ChatBot() {
         author : 'bot',
         timestamp: Date.now()
       }
+  const localServer = 'http://localhost:3001'
+  const remoteServer = 'https://portfolio-server-f6pp.onrender.com'
   const [inputMessage, setInputMessage] = useState('')
   const [userMessage, setUserMessage] = useState('') 
   const [initMessage, setInitMessage] = useState(`Hi! I am Alfonso's AI assistant. I am here to
@@ -33,7 +35,7 @@ function ChatBot() {
         console.log('the message is: ', inputMessage)
         setIsBotResponding(true)
         const body = {message : inputMessage}
-        const response = await fetch('https://portfolio-server-f6pp.onrender.com/chat', {
+        const response = await fetch(`${remoteServer}/chat`, {
         method : 'POST',
         headers:{'content-type':'application/json'},
         body: JSON.stringify(body)

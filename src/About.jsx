@@ -5,14 +5,16 @@ const aboutJson = [
     {
         title : 'Front end',
         text : `I have a strong knowledge of CSS and vanilla JavaScript, as well as the 
-                ability to build client side applications with React.js. The above mentioned skills allow me
+                ability to build client side applications with React.js, which allows me
                 to build complex interfaces designed by the UX and UI  teams`,
     },
     {
         title : 'Back end',
-        text : `On the back-end, my expertise lies in Node.js with Express.js, enabling me to create robust 
-        server-side solution. For the design phase of my server side apps, I like using tools like UML class diagrams and C4 diagrams. 
-        I have experience using Super Test to test my APIs and Swagger for writting documentation. `
+        text : `On the back-end, my expertise lies in Node.js and the Express.js framework, enabling me to create robust 
+        server-side solutions. I harness the benefits of Typescript interfeces that facilitate 
+        the implementation of design patters that allow loose coupling between components.  
+        I have experience using the Super Test library to run unit and integration tests on my APIs
+         and Swagger for writting documentation. `
     },
     {
         title: 'Database management',
